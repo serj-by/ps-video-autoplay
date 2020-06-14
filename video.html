@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<style>
+video {
+	padding: 0px;
+	margin: 0px;
+}
+</style>
+
+<script>
+function playVisible(){for(var e=document.getElementsByTagName("video"),i=0;i<e.length;i++){let t=e[i];if(i==i){let e=window.pageYOffset,i=window.innerHeight,n=t.offsetTop,l=e-n-t.offsetHeight;e-n+i>0&&l<0?(t.muted=!0,t.play()):(t.pause(),t.currentTime=0)}}}window.addEventListener("scroll",playVisible),window.addEventListener("load",playVisible);
+</script>
+</head>
+<body>
+	<div style="text-align: center; width: 512px; margin: auto;">
+		<video width=512>
+			<source src="assets/video/1.mp4" />
+		</video>
+		<video width=512>
+			<source src="assets/video/2.mp4" />
+		</video>
+		<video width=512>
+			<source src="assets/video/3.mp4" />
+		</video>
+		<video width=512>
+			<source src="assets/video/4.mp4" />
+		</video>
+		<video width=512>
+			<source src="assets/video/5.mp4" />
+		</video>
+		<video width=512>
+			<source src="assets/video/7.mp4" preload="auto" />
+		</video>
+		<video width=512>
+			<source src="assets/video/8.mp4" />
+		</video>
+		<video width=512>
+			<source src="assets/video/9.mp4" />
+		</video>
+		<video width=512>
+			<source src="assets/video/10.mp4" />
+		</video>
+	</div>
+</body>
+</html>
