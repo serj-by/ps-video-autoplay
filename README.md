@@ -1,2 +1,2 @@
 # ps-video-autoplay
-PS Cideo Autoplay demo
+PS Video Autoplay demo
